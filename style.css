@@ -1,0 +1,25 @@
+.container {
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 2fr 4fr 9fr 1fr;
+    display: grid;
+}
+.logo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.side-bar-navigation {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.header {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.body_area {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.footer {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
